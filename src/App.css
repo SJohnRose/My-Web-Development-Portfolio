@@ -21,3 +21,15 @@ h3 {
     color: rgb(66, 171, 231);
     font-size: 20px;
 }
+
+.form {
+  margin: 100px;
+  display: block;
+}
+
+.form input, textarea {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 25%;
+}
