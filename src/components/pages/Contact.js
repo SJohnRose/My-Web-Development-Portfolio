@@ -46,7 +46,7 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div class = "page">
       <h1>Contact Me </h1>
       <form className="form">
         User Name:
