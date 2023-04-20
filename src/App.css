@@ -49,38 +49,52 @@ h3 {
   text-align: center;
 }
 
-/* Container needed to position the overlay. Adjust the width as needed */
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 50px;
-  margin: 50px;
+.footer {
+  background-color: rgb(166, 139, 165);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100px;
 }
 
-/* Make the image to responsive */
-.image {
+
+/* Make the image to be responsive */
+.project-card .image {
   display: block;
-  width: 25%;
-  height: 25%;
+  width: 350px;
+  height: 300px;
+  margin: 25px;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute;
+  top: 0;
   bottom: 0;
+  left: 0;
+  right:0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(216, 211, 211, 0.5); /* Black see-through */
   color: #f1f1f1;
-  width: 25%;
+  width: 100%;
+  height: 100%;
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 20px;
-  padding: 10px;
+  
   text-align: center;
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
+.project-card:hover .overlay {
   opacity: 1;
 }
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
