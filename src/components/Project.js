@@ -15,11 +15,13 @@ export default function Project() {
             <div className="project-card">
               <img src={images[project.projectImage].default} alt="Snow" className="image"/>   
               <div className="project-card overlay">
+                <div className="project-title">
                 <h2> {project.projectName} </h2>
                 <SocialIcon
                   url = {project.projectURL}
                   network = "github"
                 />
+                </div>
                 <p> {project.projectDesc} </p>
                 <p> {project.projectTech} </p>
               </div>

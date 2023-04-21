@@ -7,9 +7,9 @@
 }
   
 .page {
-    background-color: rgb(166, 139, 165);
+    background-color: #889696;
     width: 100%;
-    height: 750px;
+    /* height: 750px; */
 }
 
 .page p {
@@ -25,8 +25,9 @@
   color: rgb(8, 8, 79);
   font-size: 36px;
   font-weight: bold;
-  padding-top: 25px;
+  padding-top: 50px;
   padding-left: 20px;
+  color: #e0e2db;
 }
 
 .avatar {
@@ -40,7 +41,7 @@
 
 .header h1 {
   font-family: "Marko One" ;
-  color: rgb(8, 8, 79);
+  color: #889696;
   font-size: 36px;
   font-weight: bold;
   padding-top: 25px;
@@ -54,15 +55,25 @@ h3 {
 }
 
 .form {
-  margin: 100px;
+  margin-left: 200px;
+  margin-top: 50px;
   display: block;
+  color: #d2d4c8;
+  font-family: "Marko One" ;
+  font-size: 20px;
 }
 
 .form input, textarea {
   display: block;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 25px;
   width: 25%;
+  
+}
+
+.form button {
+  margin-top: 20px;
+  background-color: #5f7470;
 }
 
 .header {
@@ -76,19 +87,54 @@ h3 {
 }
 
 .footer {
-  background-color: rgb(166, 139, 165);
+  background-color:#889696 ;
   display: flex;
   align-content: center;
   justify-content: center;
   height: 100px;
 }
 
+.nav-item a {
+  display: block;
+  color: #5f7470;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Mogra";
+  font-size: 25px;
+  
+}
+
+.nav{
+  width: 100%;
+  position: absolute;
+  top:0;
+  padding-top: 10px;
+  justify-content: right;
+}
+
+.nav-item {
+  border-right: 1px solid #bbb;
+}
+
 .project-container {
   width: 350px;
   height: 300px;
-  
   position: relative;
+  
 }
+
+.project-card h2 {
+  font-family: "Marko One";
+  font-size: 25px;
+  color: #5f7470;
+}
+
+.project-card p {
+  font-family: "Marko One";
+  font-size: 20px;
+}
+
 
 .project-card {
   position: absolute;
@@ -99,35 +145,19 @@ h3 {
   
 }
 
+.project-card .overlay {
+  border-radius: 8px;
+  border-style: solid;
+}
 
 /* Make the image to be responsive */
 .project-card .image {
   display: block;
   width: 350px;
   height: 300px;
-  
+  border-radius: 8px;
+  border-style: solid;
 }
-
-/* The overlay effect - lays on top of the container and over the image */
-/* .overlay {
-  position: absolute;
-  width: 350px;
-  height: 300px;
-  margin: 25px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right:0;
-  background: rgb(0, 0, 0);
-  background: rgba(216, 211, 211, 0.5); /* Black see-through */
-  /* color: #f1f1f1;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  
-  text-align: center;
-} */ 
 
 .overlay {
   background: rgba(216, 211, 211, 0.5); /* Black see-through */
@@ -145,9 +175,13 @@ h3 {
 .project-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-evenly;
+  padding-left: 200px;
   width: 100%;
-  height: 750px;
+  height: 750px; 
 }
 
+.project-title {
+  display: flex;
+  flex-direction: row;
+}
