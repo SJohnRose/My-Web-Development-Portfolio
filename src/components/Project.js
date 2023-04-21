@@ -1,7 +1,9 @@
 import React from 'react';
-import image1 from './../assets/top-schools.jpg';
+//import img1  from './../assets/top-schools.jpg';
+import { importImages } from '../utils/helpers';
 import {SocialIcon} from 'react-social-icons';
 
+const images = importImages(require.context('./../assets', false, /\.(png|jpe?g|svg)$/));
 
 export default function Project() {
   const projectList = [
@@ -9,47 +11,55 @@ export default function Project() {
       projectName: "Top Schools Nearby",
       projectDesc: "List of nearby schools",
       projectURL: "https://github.com/SJohnRose/Top-Schools-Nearby",
-      projectTech: "WEB TECHNOLOGIES"
+      projectTech: "WEB TECHNOLOGIES",
+      projectImage: "top-schools.jpg"
     },
     {
       projectName: "Browser-based Text Editor",
       projectDesc: "A Progressive Web App",
       projectURL: "https://github.com/SJohnRose/Browser-based-Text-Editor",
-      projectTech: "Webpacks and PWA"
+      projectTech: "Webpacks and PWA",
+      projectImage: "text-editor.jpg"
     },
     {
       projectName: "Employee Tracker",
       projectDesc: "Manage employee database",
       projectURL: "https://github.com/SJohnRose/Employee-Tracker-Application",
-      projectTech: "Node.js, Inquirer and MySQL"
+      projectTech: "Node.js, Inquirer and MySQL",
+      projectImage: "employee-tracker.jpg"
     },
     {
       projectName: "Team Profile Generator",
       projectDesc: "Generate team profile web page",
       projectURL: "https://github.com/SJohnRose/Team-Profile-Generator",
-      projectTech: "Node.js, Inquirer and Jest"
+      projectTech: "Node.js, Inquirer and Jest",
+      projectImage: "team-profile.jpg"
     },
     {
       projectName: "Note Taker",
       projectDesc: "Write and save notes online",
       projectURL: "https://github.com/SJohnRose/Note-Taker-Application",
-      projectTech: "Node.js and Express.js"
+      projectTech: "Node.js and Express.js",
+      projectImage: "note-taker.jpg"
     },
     {
       projectName: "Simple Weather Dashboard",
       projectDesc: "Shows weather outlook",
       projectURL: "https://github.com/SJohnRose/SimpleWeatherDashboard",
-      projectTech: "HTML, CSS, JavaScript"
+      projectTech: "HTML, CSS, JavaScript",
+      projectImage: "weather-dashboard.png"
     }
   ];
 
   return (
-    <><div class="page">
+    <><div className="page">
       <div className = "project-gallery">
       {projectList.map((project) => (
-        <div class="project-card">
-          <img src={image1} alt="Snow" class="image"/>
-          <div class="overlay">
+        <div className = "project-container">
+          <div className="project-card">
+          <img src={images[project.projectImage].default} alt="Snow" className="image"/>   
+          <div className="project-card overlay">
+            
             {/* <div> */}
               <h2> {project.projectName} </h2>
               <SocialIcon
@@ -61,6 +71,7 @@ export default function Project() {
             <p> {project.projectDesc} </p>
             <p> {project.projectTech} </p>
           </div>
+        </div>
         </div>
       ))}
       </div>

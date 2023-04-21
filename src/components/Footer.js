@@ -10,7 +10,7 @@ export default function Footer() {
          className = "FooterIcon"
       />
       <SocialIcon
-         url = "https://www.linkedin.com/in/shamini-prabaharan-john-rose-4676b064?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BatgORWu5SLaqpi32WSWfLA%3D%3D"
+         url = "www.linkedin.com/in/ShaminiJohnRose"
          network = "linkedIn"
          className = "FooterIcon"
       />

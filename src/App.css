@@ -57,33 +57,58 @@ h3 {
   height: 100px;
 }
 
+.project-container {
+  width: 350px;
+  height: 300px;
+  
+  position: relative;
+}
+
+.project-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  
+}
+
 
 /* Make the image to be responsive */
 .project-card .image {
   display: block;
   width: 350px;
   height: 300px;
-  margin: 25px;
+  
 }
 
 /* The overlay effect - lays on top of the container and over the image */
-.overlay {
+/* .overlay {
   position: absolute;
+  width: 350px;
+  height: 300px;
+  margin: 25px;
   top: 0;
   bottom: 0;
   left: 0;
   right:0;
   background: rgb(0, 0, 0);
   background: rgba(216, 211, 211, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  height: 100%;
+  /* color: #f1f1f1;
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 20px;
   
   text-align: center;
+} */ 
+
+.overlay {
+  background: rgba(216, 211, 211, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -96,5 +121,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  width: 100%;
+  height: 750px;
 }
 

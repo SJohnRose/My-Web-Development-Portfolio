@@ -3,3 +3,8 @@ export function validateEmail(email) {
     return re.test(String(email).toLowerCase());
   }
   
+export function importImages(files) {
+    let images = {};
+    files.keys().forEach((item, index) => { images[item.replace('./', '')] = files(item); });
+    return images
+}
