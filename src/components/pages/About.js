@@ -26,7 +26,7 @@ export default function About() {
         <br/> <br/>
         I love gardening and reading when I'm not planning lessons or marking assessments.
         But, right now, I'm ready to take the next big step in my career and become part of a fun and challenging workplace
-        where I can put my skills into good use.
+        where I can put my coding dark greenskills into good use.
         <br/> <br/>
         
         

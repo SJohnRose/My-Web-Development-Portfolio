@@ -12,7 +12,7 @@
 
 .page p {
   font-family: "Paprika" ;
-  color: black;
+  color: rgb(11, 46, 11);
   font-size: 18px;
   padding-top: 25px;
   padding-left: 70px;
@@ -28,6 +28,10 @@
   padding-top: 50px;
   padding-left: 70px;
   color: #e0e2db;
+}
+
+.contact-title, .portfolio-title {
+  margin-left: 120px;
 }
 
 .avatar {
@@ -100,6 +104,13 @@ h3 {
 
 .footer a {
   margin-left: 30px;
+  transition: transform 250ms;
+  color:rgb(11, 46, 11);
+}
+
+.footer a:hover {
+  transform: translateY(-2px);
+  color:rgb(11, 46, 11);
 }
 
 .nav-item a {
@@ -108,7 +119,6 @@ h3 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
   font-family: "Mogra";
   font-size: 35px;
   
@@ -213,4 +223,14 @@ h3 {
 .project-title a {
   padding-top: 15px;
   padding-left: 5px;
+  
+}
+
+.tech-list h3{
+  margin-left: 70px;
+  color: rgb(5, 31, 5);
+}
+
+.tech-list ul {
+  margin-left: 100px;
 }

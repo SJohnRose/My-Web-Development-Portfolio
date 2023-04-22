@@ -9,36 +9,39 @@ export default function Contact() {
   const [message, setMessage] = useState('');
 
   const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, username, and message
     if (inputType === 'email') {
       setEmail(inputValue);
-    } else if (inputType === 'userName') {
+      if (!validateEmail(email)) {
+        setErrorMessage('Email is invalid');
+        return;
+      }
+      else {
+        setErrorMessage('');
+        return;
+      }
+    } 
+    else if (inputType === 'userName') {
       setUserName(inputValue);
-    } else {
+    } 
+    else {
       setMessage(inputValue);
     }
+    
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
       setErrorMessage('Email or username is invalid');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-      
     }
-    
-    alert(`Hello ${userName}`);
-
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    if (!message) {
+      setErrorMessage('Message is empty');
+      return;
+    }
     setUserName('');
     setMessage('');
     setEmail('');
@@ -47,7 +50,7 @@ export default function Contact() {
 
   return (
     <div class = "page">
-      <h2>Contact Me </h2>
+      <h2 className="contact-title">Contact Me </h2>
       <form className="form">
         Name:
         <input
@@ -55,7 +58,6 @@ export default function Contact() {
           name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
         />
         Email:
         <input
@@ -63,7 +65,6 @@ export default function Contact() {
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
         />
         Message:
         <textarea
@@ -72,7 +73,6 @@ export default function Contact() {
           onChange={handleInputChange}
           rows = {10}
           cols = {60}
-          placeholder="Message"
         />
         
         <button type="button" onClick={handleFormSubmit}>Submit</button>
