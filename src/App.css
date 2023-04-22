@@ -7,7 +7,7 @@
 .page {
     background-color: #889696;
     width: 100%;
-    height: auto;
+    height: 700px;
 }
 
 .page p {
@@ -93,9 +93,13 @@ h3 {
 .footer {
   background-color:#889696 ;
   display: flex;
-  align-content: center;
-  justify-content: center;
-  height: 100px;
+  flex-direction: row;
+  justify-content: center; 
+  height:100px;
+}
+
+.footer a {
+  margin-left: 30px;
 }
 
 .nav-item a {
@@ -111,7 +115,7 @@ h3 {
 }
 
 .nav-link-active {
-  color: blue;
+  color: rgb(0, 255, 98);
   background-color:transparent;
 }
 
@@ -204,4 +208,9 @@ h3 {
 .project-title {
   display: flex;
   flex-direction: row;
+}
+
+.project-title a {
+  padding-top: 15px;
+  padding-left: 5px;
 }

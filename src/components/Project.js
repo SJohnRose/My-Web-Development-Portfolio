@@ -2,6 +2,10 @@ import React from 'react';
 import { importImages } from '../utils/helpers';
 import {SocialIcon} from 'react-social-icons';
 import projectList from '../data/projectList';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+ } from "@fortawesome/free-brands-svg-icons";
 
 const images = importImages(require.context('./../assets', false, /\.(png|jpe?g|svg)$/));
 
@@ -17,12 +21,9 @@ export default function Project() {
               <div className="project-card overlay">
                 <div className="project-title">
                 <h2> {project.projectName} </h2>
-                <SocialIcon className="social-icon"
-                  url = {project.projectURL}
-                  network = "github"
-                  style = {{height:25, width:25}}
-                  bgcolor = "#f06c9b"
-                />
+                <a href={project.projectURL}>
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
+                </a>
                 </div>
                 <p> {project.projectDesc} </p>
                 <h6> {project.projectTech} </h6>

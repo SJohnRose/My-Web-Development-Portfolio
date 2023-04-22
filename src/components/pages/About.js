@@ -21,10 +21,11 @@ export default function About() {
         also been exposed to supporting recent technologies in the industry. Among other technologies, I have 
         learnt HTML, CSS, JavaScript,Web/Third-Party APIs, Node.js, Express.js, SQL, ORM, NoSQL,
         PWA, React and MERN stack. Also, part of the course were Computer Science concepts such as fundamentals of 
-        Object-oriented Programming and and data structures and algorithms.
+        Object-oriented Programming and and data structures and algorithms. I have developed projects both independently and collaboratively 
+        with other group members using the skills that I have learnt.
         <br/> <br/>
-        I have developed projects both independently and collaboratively with other group members using the skills that I have learnt.
-        I would like to take the next big step in my career and become part of a fun and challenging workplace
+        I love gardening and reading when I'm not planning lessons or marking assessments.
+        But, right now, I'm ready to take the next big step in my career and become part of a fun and challenging workplace
         where I can put my skills into good use.
         <br/> <br/>
         

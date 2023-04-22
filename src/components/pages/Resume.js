@@ -12,9 +12,17 @@ export default function Resume() {
         <li> HTML</li>
         <li> CSS</li>
         <li> JavaScript</li>
-        <li> </li>
+        <li> jQuery</li>
+        <li> Bootstrap/Bulma CSS Frameworks</li>
       </ul>
       <h3> Back-end Technologies</h3>
+      <ul>
+        <li> </li>
+        <li> </li>
+        <li> </li>
+        <li> </li>
+      </ul>
+      <h3> Additional skills</h3>
       <ul>
         <li> </li>
         <li> </li>
