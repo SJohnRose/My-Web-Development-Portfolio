@@ -8,11 +8,13 @@ export default function Footer() {
          url = "https://github.com/SJohnRose"
          network = "github"
          className = "FooterIcon"
+         bgcolor = "green"
       />
       <SocialIcon
-         url = "www.linkedin.com/in/ShaminiJohnRose"
+         url = "https://www.linkedin.com/in/ShaminiJohnRose"
          network = "linkedIn"
          className = "FooterIcon"
+         bgcolor = "green"
       />
     </div>
   );

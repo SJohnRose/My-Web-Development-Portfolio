@@ -17,13 +17,15 @@ export default function Project() {
               <div className="project-card overlay">
                 <div className="project-title">
                 <h2> {project.projectName} </h2>
-                <SocialIcon
+                <SocialIcon className="social-icon"
                   url = {project.projectURL}
                   network = "github"
+                  style = {{height:25, width:25}}
+                  bgcolor = "#f06c9b"
                 />
                 </div>
                 <p> {project.projectDesc} </p>
-                <p> {project.projectTech} </p>
+                <h6> {project.projectTech} </h6>
               </div>
             </div>
           </div>

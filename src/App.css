@@ -2,22 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
 }
   
 .page {
     background-color: #889696;
     width: 100%;
-    /* height: 750px; */
+    height: auto;
 }
 
 .page p {
   font-family: "Paprika" ;
   color: black;
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 25px;
-  padding-left: 20px;
+  padding-left: 70px;
+  padding-right: 100px;
+  
 }
 
 .page h2 {
@@ -26,7 +26,7 @@
   font-size: 36px;
   font-weight: bold;
   padding-top: 50px;
-  padding-left: 20px;
+  padding-left: 70px;
   color: #e0e2db;
 }
 
@@ -35,16 +35,18 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 5px solid #330639;
-  margin-left: 20px;
+  border: 5px solid #5f7470;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .header h1 {
   font-family: "Marko One" ;
   color: #889696;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
-  padding-top: 25px;
+  padding-top: 65px;
   padding-left: 20px;
 }
 
@@ -67,19 +69,21 @@ h3 {
   display: block;
   margin-top: 10px;
   margin-bottom: 25px;
-  width: 25%;
+  width: 40%;
   
 }
 
 .form button {
   margin-top: 20px;
   background-color: #5f7470;
+  width: 15%;
+  
 }
 
 .header {
   background-image: url('./assets/header.jpg');
   width: 100%;
-  height: 100px; 
+  height: 200px; 
 }
 
 .header-name {
@@ -100,41 +104,56 @@ h3 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
   font-family: "Mogra";
-  font-size: 25px;
+  font-size: 35px;
   
+}
+
+.nav-link-active {
+  color: blue;
+  background-color:transparent;
 }
 
 .nav{
   width: 100%;
   position: absolute;
   top:0;
-  padding-top: 10px;
+  padding-top: 40px;
   justify-content: right;
 }
 
 .nav-item {
-  border-right: 1px solid #bbb;
+  margin-right: 150px;
 }
 
 .project-container {
   width: 350px;
-  height: 300px;
+  height: 200px;
   position: relative;
-  
+  margin-bottom: 50px;
+  margin-right: 100px;
 }
 
-.project-card h2 {
+.project-title h2 {
   font-family: "Marko One";
-  font-size: 25px;
+  font-size: 15px;
   color: #5f7470;
+  font-style: bold;
+  padding-top: 20px;
 }
 
 .project-card p {
   font-family: "Marko One";
-  font-size: 20px;
+  font-size: 15px;
+  font-style: italic;
 }
 
+.project-card h6 {
+  font-family: "Marko One";
+  font-size: 15px;
+  margin-left: 70px;
+}
 
 .project-card {
   position: absolute;
@@ -144,30 +163,29 @@ h3 {
   left: 0;
   
 }
-
-.project-card .overlay {
-  border-radius: 8px;
-  border-style: solid;
+.social-icon {
+  color: green;
 }
 
-/* Make the image to be responsive */
 .project-card .image {
   display: block;
   width: 350px;
-  height: 300px;
+  height: 200px;
   border-radius: 8px;
-  border-style: solid;
+  border-style:solid;
+  border-color: rgb(11, 46, 11);
+  box-shadow: 0 4px 8px;
 }
 
 .overlay {
-  background: rgba(216, 211, 211, 0.5); /* Black see-through */
+  background: rgba(216, 211, 211, 0.5); 
   color: #f1f1f1;
   transition: .5s ease;
   opacity:0;
   
 }
 
-/* When you mouse over the container, fade in the overlay title */
+
 .project-card:hover .overlay {
   opacity: 1;
 }
@@ -176,9 +194,11 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-left: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
   width: 100%;
-  height: 750px; 
+  height: auto; 
 }
 
 .project-title {
