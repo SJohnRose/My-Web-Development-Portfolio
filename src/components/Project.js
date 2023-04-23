@@ -19,8 +19,8 @@ export default function Project() {
               <img src={images[project.projectImage].default} alt="Project" className="image"/>   
               <div className="project-card overlay">
                 <div className="project-title">
-                <h2> {project.projectName} </h2>
-                <a href={project.projectURL}>
+                <h2> <a href={project.deployedURL}>{project.projectName} </a> </h2>
+                <a href={project.githubURL}>
                   <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
                 </div>

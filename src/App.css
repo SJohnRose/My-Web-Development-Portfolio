@@ -4,6 +4,7 @@
     padding: 0;
 }
   
+/* Styling the single page content */
 .page {
     background-color: #889696;
     width: 100%;
@@ -60,6 +61,7 @@ h3 {
     font-size: 20px;
 }
 
+/* Styling for the contact form */
 .form {
   margin-left: 200px;
   margin-top: 50px;
@@ -84,6 +86,7 @@ h3 {
   
 }
 
+/* Header component styles */
 .header {
   background-image: url('./assets/header.jpg');
   width: 100%;
@@ -94,6 +97,7 @@ h3 {
   text-align: center;
 }
 
+/* Footer component styles */
 .footer {
   background-color:#889696 ;
   display: flex;
@@ -113,6 +117,7 @@ h3 {
   color:rgb(11, 46, 11);
 }
 
+/* Navbar component styles */
 .nav-item a {
   display: block;
   color: #5f7470;
@@ -141,6 +146,7 @@ h3 {
   margin-right: 150px;
 }
 
+/* Portfolio component styling */
 .project-container {
   width: 350px;
   height: 200px;
@@ -226,6 +232,7 @@ h3 {
   
 }
 
+/* Resume component styles */
 .tech-list h3{
   margin-left: 70px;
   color: rgb(5, 31, 5);
