@@ -11,7 +11,9 @@ const images = importImages(require.context('./../assets', false, /\.(png|jpe?g|
 export default function Project() {
   
   return (
+    
     <><div className="page">
+      {console.log(images)}
         <div className = "project-gallery">
           {projectList.map((project) => (
           <div className = "project-container">

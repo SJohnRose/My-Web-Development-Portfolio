@@ -21,7 +21,7 @@ const projectList = [
       githubURL: "https://github.com/SJohnRose/Work-Day-Scheduler",
       deployedURL: "https://sjohnrose.github.io/Work-Day-Scheduler/",
       projectTech: "HTML, CSS, jQuery",
-      projectImage: "employee-tracker.jpg"
+      projectImage: "workday-scheduler.jpg"
     },
     {
       projectName: "Team Profile Generator",
