@@ -6,6 +6,7 @@ A portfolio developed using React to showcase my web development skills to poten
 - application uses React to render page.
 - uses color scheme from Coolors.
 - uses react-fontawesome library to display social icons
+- responsive application using CSS media queries
 
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications  
@@ -53,5 +54,5 @@ The following images show the appearance of the webpage.
 
 
 ## How to access the application?
-Github URL:https://github.com/SJohnRose/My-Web-Development-Portfolio
+Github URL:https://github.com/SJohnRose/My-Web-Development-Portfolio  
 Deployed URL: 
