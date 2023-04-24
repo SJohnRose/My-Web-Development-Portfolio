@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.99ff7f8f.chunk.css",
+    "main.js": "/static/js/main.499b905b.chunk.js",
+    "main.js.map": "/static/js/main.499b905b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ed8aded.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ed8aded.js.map",
+    "static/css/2.f26e749f.chunk.css": "/static/css/2.f26e749f.chunk.css",
+    "static/js/2.923b10ac.chunk.js": "/static/js/2.923b10ac.chunk.js",
+    "static/js/2.923b10ac.chunk.js.map": "/static/js/2.923b10ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f26e749f.chunk.css.map": "/static/css/2.f26e749f.chunk.css.map",
+    "static/css/main.99ff7f8f.chunk.css.map": "/static/css/main.99ff7f8f.chunk.css.map",
+    "static/js/2.923b10ac.chunk.js.LICENSE.txt": "/static/js/2.923b10ac.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/static/media/avatar.d68a5780.jpg",
+    "static/media/header.jpg": "/static/media/header.ffb4f087.jpg",
+    "static/media/note-taker.jpg": "/static/media/note-taker.3f104419.jpg",
+    "static/media/team-profile.jpg": "/static/media/team-profile.e26e0c58.jpg",
+    "static/media/text-editor.jpg": "/static/media/text-editor.4ef4830a.jpg",
+    "static/media/top-schools.jpg": "/static/media/top-schools.9711c011.jpg",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.b8e4a2a7.png",
+    "static/media/workday-scheduler.jpg": "/static/media/workday-scheduler.0eb346a5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ed8aded.js",
+    "static/css/2.f26e749f.chunk.css",
+    "static/js/2.923b10ac.chunk.js",
+    "static/css/main.99ff7f8f.chunk.css",
+    "static/js/main.499b905b.chunk.js"
+  ]
+}
