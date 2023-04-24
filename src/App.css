@@ -8,7 +8,7 @@
 .page {
     background-color: #889696;
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 
 .page p {
@@ -56,7 +56,6 @@ h3 {
 
 /* Styling for the contact form */
 .form {
-  margin-left: 200px;
   margin-top: 50px;
   display: block;
   color: #d2d4c8;
@@ -75,7 +74,7 @@ h3 {
 .form button {
   margin-top: 20px;
   background-color: #5f7470;
-  width: 15%;
+  width: 25%;
   
 }
 
@@ -96,7 +95,7 @@ h3 {
   padding-left: 20px;
 }
 
-
+/* Responsive design for small devices */
 @media screen and (max-width: 400px) {
   .main-page {
      display: flex;
@@ -116,8 +115,24 @@ h3 {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .form {
+    margin-left: 50px;
+    font-size: 10px;
+  }
+
+  .form input, textarea {
+    width: 60%;
+  }
+  .contact-title {
+    margin-left: 10px;
+  }
+  .project-title h2, .project-card p, h6, .page p {
+    font-size: 10px;
+  }
 }
 
+/* Responsive design for large devices */
 @media screen and (min-width: 700px) {
   .main-page {
      display: flex;
@@ -131,6 +146,9 @@ h3 {
   .project-gallery {
     padding-left: 100px;
     padding-right: 100px;
+  }
+  .form {
+    margin-left: 200px;
   }
   
 }

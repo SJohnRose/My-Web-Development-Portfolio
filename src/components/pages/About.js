@@ -25,8 +25,9 @@ export default function About() {
         with other group members using the skills that I have learnt.
         <br/> <br/>
         I love gardening and reading when I'm not planning lessons or marking assessments.
-        But, right now, I'm ready to take the next big step in my career and become part of a fun and challenging workplace
-        where I can put my coding skills into good use.
+        <br/>
+        <b>But, right now, I'm ready to take the next big step in my career and become part of a fun and challenging workplace
+        where I can put my coding skills into good use.</b>
         <br/> <br/>
         
         
