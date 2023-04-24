@@ -13,7 +13,7 @@ export default function Project() {
   return (
     
     <><div className="page">
-      {console.log(images)}
+      <h2> My Projects</h2>
         <div className = "project-gallery">
           {projectList.map((project) => (
           <div className = "project-container">

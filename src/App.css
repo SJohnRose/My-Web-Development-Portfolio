@@ -21,6 +21,7 @@
   
 }
 
+
 .page h2 {
   font-family: "Marko One" ;
   color: rgb(8, 8, 79);
@@ -31,7 +32,7 @@
   color: #e0e2db;
 }
 
-.contact-title, .portfolio-title {
+.contact-title {
   margin-left: 120px;
 }
 
@@ -46,14 +47,6 @@
   margin-bottom: 30px;
 }
 
-.header h1 {
-  font-family: "Marko One" ;
-  color: #889696;
-  font-size: 40px;
-  font-weight: bold;
-  padding-top: 65px;
-  padding-left: 20px;
-}
 
 h3 {
     margin: auto;
@@ -91,11 +84,57 @@ h3 {
   background-image: url('./assets/header.jpg');
   width: 100%;
   height: 200px; 
+  
 }
 
-.header-name {
-  text-align: center;
+.header h1 {
+  font-family: "Marko One" ;
+  color: #889696;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 65px;
+  padding-left: 20px;
 }
+
+
+@media screen and (max-width: 400px) {
+  .main-page {
+     display: flex;
+     flex-direction: column;
+  }
+  .nav{
+    
+    position: relative;
+    background-color: #889696;
+    
+  }
+  .page {
+    height:fit-content;
+  }
+
+  .project-gallery {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .main-page {
+     display: flex;
+     flex-direction: column;
+  }
+  .nav{
+    
+    position: absolute;
+    
+  }
+  .project-gallery {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+}
+
 
 /* Footer component styles */
 .footer {
@@ -136,7 +175,7 @@ h3 {
 
 .nav{
   width: 100%;
-  position: absolute;
+  
   top:0;
   padding-top: 40px;
   justify-content: right;
@@ -214,8 +253,6 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-left: 100px;
-  padding-right: 100px;
   padding-top: 50px;
   width: 100%;
   height: auto; 
