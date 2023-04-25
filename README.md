@@ -55,4 +55,4 @@ The following images show the appearance of the webpage.
 
 ## How to access the application?
 Github URL:https://github.com/SJohnRose/My-Web-Development-Portfolio  
-Deployed URL: 
+Deployed URL: https://sjohnrose.github.io/My-Web-Development-Portfolio/ 
