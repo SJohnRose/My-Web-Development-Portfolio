@@ -16,9 +16,9 @@ export default function About() {
         Coding Bootcamp offered by Monash University and enrolled in it. After five months of juggling my teaching commitments with
         online classes and weekly challenges, I'm confident that I can pursue my dream career in web development.
         <br/> <br/>
-        Currently, I'm in the final weeks of the Bootcamp and so far I have learnt how to design a professional and 
-        responsive UI for a website, to develop servers and databases to manage the back-end of websites and 
-        also been exposed to supporting recent technologies in the industry. Among other technologies, I have 
+        I have successfully completed the Bootcamp and I am confident in designing a professional and 
+        responsive UI for a website, in developing servers and databases to manage the back-end of websites and 
+        also been exposed to recent technologies in the industry. Among other technologies, I have 
         learnt HTML, CSS, JavaScript,Web/Third-Party APIs, Node.js, Express.js, SQL, ORM, NoSQL,
         PWA, React and MERN stack. Also, part of the course were Computer Science concepts such as fundamentals of 
         Object-oriented Programming and data structures and algorithms. I have developed projects both independently and collaboratively 
